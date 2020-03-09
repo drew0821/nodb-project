@@ -1,38 +1,140 @@
-.App {
+
+header {
+  font-size: 40px;
+  display: flex;
+  font-family: 'Shadows Into Light', cursive;
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.header {
+  text-align: center;
+  border-radius: 20px;
+  background-size: contain;
+  background-image: url(https://cdn.lynda.com/course/169055/169055-637074595940753688-16x9.jpg);
+  width: 100%;
+  height: 100%;
+}
+.add-component {
+  padding-top: 200px;
+  position: relative;
+  z-index: 3;
+  height: 400px;
+}
+.add-roomie-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  border-radius: 30px;
+  justify-content: space-evenly;
+}
+.input-boxs {
+  justify-content: center;
+  flex-direction: column;
+  width: 100px;
+}
+.add-button {
+  align-self: center;
+  width: 50px;
+  
+}
+.box {
+ 
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: 20vh;
+  border-radius: 30px;
+  justify-content: space-evenly;
+}
+.roommate-list {
+  
+  display: flex;
+  background-color: rgb(42,43,157);
+  border-radius: 30px;
+  width: 70vw;
+  height: 23vh;
+  justify-content: center;
+  margin: 10px;
+  
+
+}
+.section {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+.rating {
+  font-size: 35px;
+  align-self: flex-start;
+  background-color: rgb(83,75,194);
+  width: 120px;
+  height: ;
+  border-radius: 100px;
+  text-align: center;
+
+}
+.x {
+  width: 30px;
+  height: 30px;
+  align-self: flex-end;
+  background-color: rgb(153,149,243);
+  border-radius: 100px;
+  
+}
+.food{
+  background-color: rgb(153,149,243);
+  width: 230px;
+  height: 40px;
+  border-radius: 50px;
+  align-self: center;
+  font-size: large;
+  font-family: 'Permanent Marker';
+  text-align: center;
+}
+.color {
+  background-color: rgb(153,149,243);
+  width: 230px;
+  height: 50px;
+  border-radius: 50px; 
+  font-size: large;
+  font-family: 'Permanent Marker';
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+img {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 100px;
+  border: 2px blue;
+  width: 180px;
+  
+  
+}
+h3 {
+  font-family: 'Shadows Into Light', cursive;
+  width: 20px;
+
+}
+h1 {
+  font-family: 'Permanent Marker';
+}
+.name{
+  font-size: 40px;
+  font-family: 'Sacramento';
+  background-color: rgb(83,75,194);
+  border-radius: 30px;
+  text-align: center;
+  width: 250px;
+  height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
